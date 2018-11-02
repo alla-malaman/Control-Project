@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+
+body {
+	padding: 0%;
+	margin: 0%;
+	font-family: 'Lato';
+
+}
+
+.navbar-brand {
+	font-family: 'Pacifico';
+	font-size: 35px;
+	color: lightcoral !important;
+
+}
+
+.nav-link {
+	font-size: 16px;
+	margin: 15pz;
+	color: black !important;
+	font-family: 'Roboto Condensed';
+}
+
+
+.nav-link:hover {
+	color: #6a5acd !important;
+}
+
+.active .nav-link {
+	color: #6a5acd !important;
+}
+
+
+.menu-right-btn {
+	padding: 13px 46px;
+	margin-right: 4%;
+	background-color: transparent;
+	transition: all 300ms ease-in; 
+}
+
+.menu-right-btn:hover {
+	color: white;
+	background-color: #6a5acd; 
+
+}
+
+
+.site-content {
+	background-image: url(mainbook.jpg); 
+	background-attachment: fixed;
+	background-size: cover; 
+	padding: 2%;
+}
+
+
+.site-title {	
+	padding-left: 25%;
+	color: white;
+	font-family: 'Righteous';
+	margin-top: 3%;
+	margin-bottom: 0%;
+	font-size: 50px;
+	padding-bottom: 5%;
+}
+
+.site-desc {
+	font-family: 'Pacifico';
+	color: white;
+	font-size: 24px;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
+.site-btn1 {
+	margin-left: 35%;
+	background-color: black;
+	color: white; 
+}
+
+.site-btn2 {
+	background-color: white;
+
+} 
+
+.site-btn1, .site-btn2 {
+	margin-top: 5%;
+	margin-bottom: 40%;
+}
+
+
+/* Section-1 */
+.section-1 .heading-1 {
+	margin-top: 8%;
+
+}
+
+.section-1 .heading-2 {
+	width: 100%;
+	font-style: 40px;
+}
+
+.section-1 .para-1 {
+	padding-top: 3%;
+	font-family: 'Ubuntu';
+	width: 60%;
+	font-size: 20px;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+}
+
+.section-1 .card-text, .para-1 {
+	color: rgba(0, 0, 0, 0.59);
+}
+
+.card {
+		 width: 20rem;
+	}
+
+.section-1 .card {
+	margin-bottom: 10%;
+}
+
+/* Section-2 */
+
+
+.section-2 .container-fluid {
+	background-image: url(bookmark3.jpg); 
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.section-2 .heading {
+	font-family: 'Righteous';
+	color: whitesmoke;
+	margin-top: 20%;
+	margin-bottom: 4%;
+	width: 80%;
+}
+ .section-2 .para {
+ 	font-family: 'Ubuntu';
+ 	font-size: 18px;
+ 	color: whitesmoke;
+ 	margin-bottom: 7%;
+ }
+
+ .section-2 .btn {
+ 	margin-bottom: 	20%;
+ 	width: 30%;
+ 	padding: 2% 5%;
+ }
+
+
+
+ /* Section-3 */
+ .section-3 {
+ 	margin-top: 6%;
+
+ }
+
+.section-3 i{
+	color: #6a5acd;
+}
+
+.section-3 p{
+	color: rgba(0, 0, 0, 0.59);
+}
+
+/* Section 4 */
+
+
+.section-4 {
+	margin-top: 8%;
+	background: #808080;
+}
+
+
+.section-4 .row .col-md-7, .col-md-5 {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.section-4 a {
+	color: #6a5acd;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.section-4 .text-white {
+	font-family: 'Righteous';
+}
+.section-4 .para-2 {
+	color: white;
+	font-family: 'Roboto Condensed';
+	margin-top: 7%;
+	font-size: 23px;
+}
+
+/* Footer */
+
+.social i {
+	color: lightcoral;
+	font-size: 30px;
+
+}
+
+@media screen and (max-width: 768px){
+	.section-1 .card {
+		width: 14rem;
+	}
+
+	.section-4 .col-md-7 img {
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.site-content .site-title {
+		font-size: 30px;
+		padding: 15%;
+	}
+
+	.site-content .site-btn2 {
+		display: none;
+	}
+
+	.site-content .site-btn1 {
+		margin-left: 15%;
+	}
+
+	.section-1 .heading-1, .section-1 .heading-2 {
+		font-size: 25px;
+	}
+
+	.section-1 .col-md-4 {
+		padding: 5%;
+		margin-left: 8%;
+	}
+
+	.section-1 .card {
+		width: 15rem:;
+	}
+
+	.section-4 .col-md-5{
+		padding: 0% 15%;
+	}
+
+	footer input[type="button"]{
+		margin-top: 5%;
+	}
+}
